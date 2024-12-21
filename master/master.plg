@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\quest\Desktop\projects git\arm master pic slave\master\master.uvproj
+Project File Date:  12/21/2024
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+linking...
+master.axf: Warning: L6665W: Neither Lib$$Request$$armlib Lib$$Request$$cpplib defined, not searching ARM libraries.
+master.axf: Error: L6411E: No compatible library exists with a definition of startup symbol __main.
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling master.c...
+master.c(22): warning:  #111-D: statement is unreachable
+master.c(23): warning:  #1-D: last line of file ends without a newline
+master.c(6): warning:  #177-D: variable "ch" was declared but never referenced
+linking...
+Program Size: Code=876 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"master.axf" - 0 Error(s), 3 Warning(s).

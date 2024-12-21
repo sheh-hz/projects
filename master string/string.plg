@@ -1,0 +1,18 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\quest\Desktop\projects git\arm master pic slave\master string\string.uvproj
+Project File Date:  12/21/2024
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling string.c...
+string.c(22): warning:  #111-D: statement is unreachable
+string.c(23): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=1004 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"string.axf" - 0 Error(s), 2 Warning(s).
